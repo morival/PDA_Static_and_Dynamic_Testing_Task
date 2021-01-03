@@ -18,22 +18,25 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: # double equal sign missing
       return True
-    else 
+    else # colon is missing
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2): # 'def' instead of 'dif' should be used as well as coma after should separate 'card1' and 'card2'
   if card1.value > card2.value:
-    return card
+    return card # 'card1' instead of 'card' should be used
   else:
     return card2
+  # line 28, 29, 30 and 31 require indentation
 
 
 def cards_total(self, cards):
-  total 
+  total # 'total' should be equal 0 ('= 0' is missing)
   for card in cards:
     total += card.value
-    return "You have a total of" + total 
+    return "You have a total of" + total # space could be added before the end of the string "You have a total of"
+    # string interpolation of 'total' is missing(f"{total}").
+  #line 35, 36, 37 and 38 require indentation
 ```
